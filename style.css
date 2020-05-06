@@ -2,6 +2,11 @@ body {
     font-family: "Sarabun", sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     height: 100vh;
     display: flex;
@@ -29,6 +34,7 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    margin: 0 !important;
 }
 
 .about-pages {
